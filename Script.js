@@ -30,7 +30,7 @@ closeIcon.addEventListener("click", () => {
 
 
 window.addEventListener("resize", (a) => {
-    console.log(a.target.innerWidth)
+
     var navWidth=a.target.innerWidth;
 
        navWidth < 600 ?
