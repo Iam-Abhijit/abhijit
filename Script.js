@@ -33,7 +33,7 @@ window.addEventListener("resize", (a) => {
     
     var navWidth=a.target.innerWidth;
 
-       navWidth < 600 ?
+       navWidth <= 600 ?
         navListOpt.forEach(el => {
             el.addEventListener("click", () => {
                 var navList = document.querySelector("nav ul");
