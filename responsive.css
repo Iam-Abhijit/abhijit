@@ -1,0 +1,98 @@
+@media only screen and (max-width: 600px) {
+
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-right: 0;
+    padding-bottom: 20px;
+    position: absolute;
+    align-items: center;
+    top: 0px;
+    justify-content: space-evenly;
+    width: 100%;
+    font-size: 18px;
+    height: 40vh;
+    background: var(--bgcolor);
+    transform: translateY(-500px);
+    transition: all .5s ease;
+  }
+
+  nav ul li {
+    list-style: decimal-leading-zero inside;
+  }
+
+  #menu {
+    display: block;
+    z-index: 2;
+  }
+
+  .socialMediaCont {
+    left: 0;
+  }
+
+  .socialMediaCont hr {
+    left: -6px;
+  }
+
+  .HomeCont {
+    margin: 25px 0px 0px 0px;
+  }
+
+  .myName,
+  .myDetailsTittle {
+    font-size: 18px;
+  }
+
+  .nameTittle,
+  .myDetails,
+  .serviceOption p,
+  .toolSubTittle,
+  .language p,
+  .contactCont p{
+    font-size: 12px;
+  }
+
+  .myDetails {
+    line-height: 3;
+    margin-right: 0;
+  }
+
+
+  .AboutText {
+    font-size: 14px;
+    width: 100%;
+  }
+  .AboutMainCont {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .AboutTextBox {
+    width: 100%;
+  }
+
+  .AboutImage {
+    width: auto;
+    /* display:none; */
+  }
+  .AboutImageBox{
+    margin: auto;
+  }
+
+
+  .serviceBox {
+    flex-direction: column;
+    align-items: center;
+}
+
+  .language{
+    width: 40%;
+    
+  }
+
+  .contactCont{
+    width: 80%;
+  }
+}
